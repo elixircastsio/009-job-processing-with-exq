@@ -1,0 +1,7 @@
+<h2>Contact Us</h2>
+<p>Fill out the form to send us an email</p>
+
+<%= render "form.html", changeset: @changeset,
+                        action: message_path(@conn, :create) %>
+
+<%= link "Back", to: page_path(@conn, :index) %>

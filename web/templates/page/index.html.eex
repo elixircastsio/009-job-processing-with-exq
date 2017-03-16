@@ -1,0 +1,2 @@
+<h2>Awesome, Fast App</h2>
+<%= link "Contact Us", to: message_path(@conn, :new) %>
